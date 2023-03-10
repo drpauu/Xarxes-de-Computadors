@@ -1,6 +1,6 @@
 import socket
 import threading
-"Importamos las bibliotecas socket y threading."
+"""Importamos las bibliotecas socket y threading."""
 
 def send_messages():
     while True:
@@ -27,7 +27,7 @@ dirección IP y el puerto del remitente."""
 
 def connect():
     host = socket.gethostname()
-    port = 5000
+    port = 7032
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((host, port))
     s.listen(5)
@@ -59,6 +59,6 @@ if __name__ == '__main__':
     thread.start()
     connect()
 
-"""Finalmente, en la sección principal del programa, se inicializa la lista client_sockets
+"""En la sección principal del programa, se inicializa la lista client_sockets
 y se inicia un hilo para enviar mensajes utilizando la función send_messages(). Luego, se
 llama a la función connect() para configurar y ejecutar el servidor."""

@@ -56,3 +56,31 @@ if __name__ == '__main__':
 """Finalmente, verificamos si el módulo está siendo ejecutado directamente 
 (es decir, no siendo importado por otro módulo), y si es así, 
 ejecutamos la función connect()."""
+
+
+#Text d'explicació
+
+"""
+ENUNCIAT:
+on es descriuran les quatre característiques fonamentals d'un protocol de nivell d'aplicació, 
+així com les analogies/diferencies entre la utilització d'un servei orientat a connexió i d'un
+servei no-orientat a connexió, com els que heu desenvolupat."""
+
+"""Un protocol de nivel de aplicación es un conjunto de reglas que permiten
+la comunicación entre procesos de aplicación en una red. Para que un protocol
+de aplicación sea efectivo, debe tener cuatro características principales: 
+identificación de procesos, control de transferencia de datos, control de sesión
+y gestión de errores.
+
+La identificación de procesos permite que los procesos de aplicación se comuniquen
+de manera efectiva entre sí. El control de transferencia de datos se refiere a 
+la segmentación y reasamblea de paquetes, la gestión de flujo y la corrección 
+de errores que pueden ocurrir durante la transferencia de datos. El control de
+sesión es importante para establecer, mantener y finalizar una sesión de comunicación
+entre procesos de aplicación. Por último, la gestión de errores ayuda a detectar 
+y recuperarse de los errores que se produzcan durante la comunicación.
+
+Los servicios orientados a conexión, como TCP, ofrecen una comunicación fiable 
+y segura en la red, ya que los paquetes enviados son confirmados y retransmitidos
+si es necesario. Los servicios no orientados a conexión, como UDP, son menos fiables,
+ya que no ofrecen confirmación ni retransmisión de paquetes."""

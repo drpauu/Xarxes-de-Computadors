@@ -7,7 +7,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 
 # bind the socket to a public host, and a well-known port
-server_socket.bind((host, 8000))
+server_socket.bind((host, 7032))
 
 # set the server to listen for incoming connections
 server_socket.listen(1)
